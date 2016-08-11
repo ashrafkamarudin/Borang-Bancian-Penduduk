@@ -36,7 +36,7 @@ require_once 'header.php';
 							    	<tr>
 							    		<td>
 							        		<h4 class="ui image header">
-							          		<img src="images/male.PNG" class="ui mini rounded image">
+							          		<img src="images/male.png" class="ui mini rounded image">
 							        		<div class="content">
 							            		<?php echo $admin_info['admin_name']; ?>
 							            		<div class="sub header">Web Admin</div>
