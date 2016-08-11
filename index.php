@@ -86,13 +86,13 @@ if (isset($_POST['submit'])) {
                         <div class="field">
                             <label>Status Rumah</label>
                             <div class="ui radio checkbox">
-                                <input class="hidden" name="status_rumah" tabindex="0" type="radio" value="sendiri" > 
+                                <input class="hidden" name="status_rumah" tabindex="0" type="radio" value="sendiri" required="">> 
                                 <label style="cursor:pointer">
                                     Sendiri
                                 </label>
                             </div>
                             <div class="ui radio checkbox">
-                                <input class="hidden" name="status_rumah" tabindex="0" type="radio" value="sewa" > 
+                                <input class="hidden" name="status_rumah" tabindex="0" type="radio" value="sewa" required="">> 
                                 <label style="cursor:pointer">Sewa</label>
                             </div>
                         </div>
