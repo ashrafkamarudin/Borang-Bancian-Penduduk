@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	padding-top: 50px;
+	background:#fff;
+}
+
+/* main style*/
+
+.ui.grid.container {
+	position: relative;
+	left: -10%;
+}
+
+.ui.main.grid {
+  position: relative;
+  margin:auto;
+  width: 85%;
+}
+
+.right.menu .item{
+  cursor: pointer;
+}
+
+.action.item{
+  color: red !important; 
+}
+
+tr:hover{
+  cursor: pointer;
+}
+
+.ui.main.grid .ui.secondary.pointing.fluid.menu h2 {
+  margin: calc(2rem - .14285em) 0 1rem;
+}
+
+.info{
+  color: #2185d0 ;
+}
+
+/* sidebar*/
+
+.center{
+  margin-left: 25%;
+}
+
+.ui.right.visible.sidebar.inverted.vertical.menu a.item:first-child {
+  padding-bottom: 30px;
+  padding-top: 60px;
+  font-weight: bold;
+}
+
+.ui.sidebar.vertical.menu a.item:first-child {
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+.ui.accordion.menu
+{
+  font-size: 14px;
+}
