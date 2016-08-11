@@ -5,7 +5,7 @@ $login = new admin();
 
 if($login->is_loggedin()!="")
 {
-	$login->redirect('senarai.php');
+	$login->redirect('senarai');
 }
 
 if(isset($_POST['btn-login']))
@@ -15,7 +15,7 @@ if(isset($_POST['btn-login']))
 		
 	if($login->doLogin($uname,$upass))
 	{
-		$login->redirect('senarai.php');
+		$login->redirect('senarai');
 	}
 	else
 	{

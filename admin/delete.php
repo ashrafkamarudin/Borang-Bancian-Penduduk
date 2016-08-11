@@ -13,4 +13,4 @@ if ($deleteUser == true) {
     unset($_SESSION['user_id']);
 }
 
-header('location:profilahli.php');
+header('location:profilahli');

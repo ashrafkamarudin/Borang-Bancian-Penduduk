@@ -12,5 +12,5 @@ if(isset($_GET['logout']) && $_GET['logout']=="true")
     $uname = $_GET['name'];
 
 	$admin_logout->doLogout($uname);
-	$admin_logout->redirect('index.php');
+	$admin_logout->redirect('index');
 }

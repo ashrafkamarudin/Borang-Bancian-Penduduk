@@ -11,5 +11,5 @@ $session = new admin();
 if(!$session->is_loggedin())
 {
 	// redirects to login page
-	$session->redirect('index.php');
+	$session->redirect('index');
 }

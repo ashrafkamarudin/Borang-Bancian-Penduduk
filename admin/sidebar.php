@@ -5,23 +5,23 @@
     		&nbsp;Hi' <?php echo $admin_info['admin_name']; ?>&nbsp;
     	</label>
     </a>
-    <a class="item" href="Home.php">
+    <a class="item" href="Home">
     <i class="home icon"></i>
         Home
     </a>
-    <a class="item" href="senarai.php">
+    <a class="item" href="senarai">
     <i class="unordered list icon"></i>
         Senarai
     </a>
-    <a class="item" href="profilahli.php">
+    <a class="item" href="profilahli">
     <i class="user icon"></i>
         Profil Pengguna
     </a>
-    <a class="item" href="tetapan.php">
+    <a class="item" href="tetapan">
     <i class="setting icon"></i>
         Tetapan
     </a>
-    <a class="item grey" href="logout.php?logout=true&name=<?php echo $admin_info['admin_name']; ?>">
+    <a class="item grey" href="logout?logout=true&name=<?php echo $admin_info['admin_name']; ?>">
     <i class="sign out icon"></i>
     	Logout
     </a>
