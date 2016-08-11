@@ -230,12 +230,6 @@ if (isset($_POST['submit'])) {
                                     <option value="">
                                         Hubungan dengan Ketua Keluarga
                                     </option>
-                                    <option value="father">
-                                        Ayah
-                                    </option>
-                                    <option value="mother">
-                                        Emak
-                                    </option>
                                     <option value="husband">
                                         Suami
                                     </option>
@@ -244,6 +238,12 @@ if (isset($_POST['submit'])) {
                                     </option>
                                     <option value="child">
                                         Anak
+                                    </option>
+                                    <option value="father">
+                                        Ayah
+                                    </option>
+                                    <option value="mother">
+                                        Emak
                                     </option>
                                 </select>
                             </div>
