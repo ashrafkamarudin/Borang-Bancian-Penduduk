@@ -5,7 +5,7 @@
     		&nbsp;Hi' <?php echo $admin_info['admin_name']; ?>&nbsp;
     	</label>
     </a>
-    <a class="item" href="Home">
+    <a class="item" href="home">
     <i class="home icon"></i>
         Home
     </a>
