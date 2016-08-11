@@ -5,10 +5,10 @@ error_reporting(0);  // comment this section on development mode to see errors
 class database
 {	
 	private $conn;
-	private $db_name = 'profil_penduduk';
-	private $db_user = 'root';
-	private $db_pass = '';
-	private $db_host = 'localhost';
+	private $db_name = 'u137043750_form';
+	private $db_user = 'u137043750_form';
+	private $db_pass = '0145217187';
+	private $db_host = 'mysql.hostinger.my';
 
 	public function connect()
 	{
